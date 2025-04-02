@@ -30,7 +30,7 @@ public class DemoHTMLAttribute {
 
         //driver.findElement(By.tagName("button")).click();
 
-        //driver.findElement(By.className("btn-primary")).click();
+        driver.findElement(By.className("btn-primary")).click();
 
         Thread.sleep(3000);
         driver.quit();
